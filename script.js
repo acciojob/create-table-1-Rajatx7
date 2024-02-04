@@ -1,9 +1,9 @@
 function insert_Row() {
     //Write your code here
 	let tab = document.getElementById("sampleTable");
-	tab.innerHTML += `<tr><td>Row${c} cell1</td> 
-					<td>Row${c} cell2</td></tr> ` 
-	c++;
+	tab.innerHTML = `<tr><td>New cell1</td> 
+					<td>New cell2</td></tr> ` + tab.innerHTML
+	// c++;
   
 }
-let c=3;
+// let c=3;
